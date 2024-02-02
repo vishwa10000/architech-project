@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans,sans-serif;
+}
+.signup-crd1-flx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.signup{
+background-color: rgba(189, 188, 188, 0.233);
+height: 110vh;
+}
+
+.signup-btntop{
+border: transparent;
+background-color:whitesmoke;
+padding: 10px 15px;
+border-radius: 50%;
+font-size: 20px;
+float: right;
+margin-top: 20px;
+margin-right: 20px;
+transition: .2s;
+cursor: pointer;
+}     
+.signup-btntop:hover{
+background-color: rgb(205, 203, 203);
+}   
+.signup-card1{
+background-color: white;
+height: 82vh;
+width: 40%;
+filter: drop-shadow(0 0 5px);
+text-align: center;
+border-radius: 13px;
+padding: 20px;
+margin-top: 80px;
+position: relative;
+}  
+.signup-crd1-img{
+width: 250px;
+height: 250px;
+}
+.pro{
+position: absolute;
+top: 20px;
+right: 30px;
+border: transparent;
+border-radius: 50px;
+padding:5px 20px 7px 20px;
+font-size: 20px;
+font-weight: 800;
+color: white;
+background-image: linear-gradient(117.03deg,#4c48ff 0,#0cbf74 70%);
+}
+.signup-crd1-txt1{
+font-size: 1.8rem;
+font-weight: 600;
+color: #404040;
+padding-bottom: 25px;
+}
+.signup-crd1-btn{
+background-color: #20bd57;
+border: transparent;
+padding: 10px 150px;
+border-radius: 50px;
+margin-top: 35px;
+color: white;
+font-weight: 600;
+font-size: 20px;
+}
+
+.signup-crd1-btn1{
+background-image: linear-gradient(117.03deg,#4c48ff 0,#0cbf74 70%);
+border: transparent;
+padding: 10px 150px;
+border-radius: 50px;
+color: white;
+font-weight: 600;
+font-size: 20px;
+margin-top: 35px;
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .signup-crd1-flx{
+        flex-direction: column;
+    }
+    .signup{
+        height: 300vh;
+    }
+    .signup-card1{
+        width: 90%;
+        height: 110vh;
+        margin-right: -19%;
+    }
+    .signup-crd1-img{
+        width: 100%;
+        height: 200px;
+    }
+    .signup-crd1-btn{
+        padding: 10px 60px;
+        font-size: 100%;
+    }
+    .signup-crd1-btn1{
+        padding: 10px 60px;
+        font-size: 100%;
+    }
+}

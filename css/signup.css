@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans,sans-serif;
+}
+.signup-flex{
+    display: flex;
+    gap: 50px;
+}
+.form-left-txt-content{
+    position: absolute;
+    top: 340px;
+    /* width: 50%; */
+    color: white;
+    padding: 20px;
+}
+.form-left-txt-content a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 50px;
+    background-image: linear-gradient(117.03deg,#4c48ff 0,#0cbf74 70%);
+}
+.form-text{
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+.form-text-para{
+    letter-spacing: 0.1em;
+    padding-top: 10px;
+    font-size: 18px;
+    width: 500px;
+}
+.signup-ryt-form{
+    width: 45%;
+    margin-top: 30px;
+}
+.signup-rytcontent-x{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.signup-rytcontent-x p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #404040;
+}
+.signup-x{
+    background-color: rgb(248, 247, 247);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 14px;
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.signup-x:hover{
+    background-color: rgb(227, 224, 224);
+}
+.already-hv-ac{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.already-hv-ac a{
+    text-decoration: none;
+    color: #33b25c;
+} 
+.input1{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.input1:focus{
+    outline: 0;
+    border: 1px solid #33b25c;
+}
+.input2{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.input2:focus{
+    outline: 0;
+    border: 1px solid #33b25c;
+}
+.password-min6{
+    font-size: 11px;
+    color: #b4b4b4;
+}
+.signup-checkbox{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+.signup-checkbox p{
+    font-size: 10px;
+    width: 300px;
+}
+.signup-with-email-btn{
+    border: transparent;
+    background-color:#33b25c;
+    color: white;
+    padding: 10px 80px;
+    margin-top: 14px;
+    margin-left:40px ;
+   border-radius: 5px;
+   font-size: 16px;
+}
+@media (min-width:320px) and (max-width:480px){
+  .signup-flex{
+    flex-direction: column-reverse;
+  }
+  .girl-img{
+    width: 100%;
+    height: 100%;
+  }
+  .form-left-txt-content{
+    width: 100%;
+  }
+  .form-text-para{
+    width: 100%;
+  }
+  .signup-ryt-form{
+    width: 100%;
+    padding: 10px;
+  }
+  .input1{
+    width: 90%;
+  }
+  .input2{
+    width: 90%;
+  }
+  .signup-with-email-btn{
+    margin: 0;
+    margin-top: 10px;
+  }
+  .form-left-txt-content{
+    top: 400px;
+  }
+}

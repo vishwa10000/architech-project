@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans,sans-serif;
+}
+.top-x{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.top-x-btn{
+    border: transparent;
+    padding: 10px 14px;
+    margin: 15px;
+    font-size: 1.3rem;
+    color: rgb(105, 104, 104);
+    border-radius: 50%;
+    transition: 0.2s;
+    background-color: rgba(255, 255, 255, 0.728);
+}
+.top-x-btn:hover{
+    background-color: rgb(236, 232, 232);
+}
+.lists{
+    position: absolute;
+    top: 100px;
+}
+.text-list1{
+    overflow: hidden;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    & i{
+        color: white;
+        font-size: 25px;
+        padding-left: 7px;
+    }
+}
+.text-list1 button{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.215),rgba(0, 0, 0, 0.137),rgba(0, 0, 0, 0));
+    padding: 10px 400px 10px 10px;
+    border: transparent;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.text-list1:hover{
+    background:linear-gradient(to right,#33b25c,#33b25b9f,#33b25b00);
+}
+.text-list2{
+    overflow: hidden;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    & i{
+        color: white;
+        font-size: 25px;
+        padding-left:10px;
+    }
+}
+
+.text-list2:hover{
+    background:linear-gradient(to right,#33b25c,#33b25b9f,#33b25b00);
+}
+.text-list2 button{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.215),rgba(0, 0, 0, 0.137),rgba(0, 0, 0, 0));
+    padding: 10px 400px 10px 10px;
+    border: transparent;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.text-list3{
+    overflow: hidden;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    & i{
+        color: white;
+        font-size: 25px;
+        padding-left:8px;
+    }
+}
+.text-list3 button{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.215),rgba(0, 0, 0, 0.137),rgba(0, 0, 0, 0));
+    padding: 10px 400px 10px 10px;
+    border: transparent;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.text-list3:hover{
+    background:linear-gradient(to right,#33b25c,#33b25b9f,#33b25b00);
+}
+.text-list4{
+    overflow: hidden;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    & i{
+        color: white;
+        font-size: 25px;
+        padding-left:7px;
+    }
+}
+.text-list4 button{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.215),rgba(0, 0, 0, 0.137),rgba(0, 0, 0, 0));
+    padding: 10px 400px 10px 10px;
+    border: transparent;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.text-list4:hover{
+    background:linear-gradient(to right,#33b25c,#33b25b9f,#33b25b00);
+}
+.text-list5{
+    overflow: hidden;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    & i{
+        color: white;
+        font-size: 25px;
+        padding-left:10px;
+    }
+}
+.text-list5 button{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.215),rgba(0, 0, 0, 0.137),rgba(0, 0, 0, 0));
+    padding: 10px 400px 10px 10px;
+    border: transparent;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.text-list5:hover{
+    background:linear-gradient(to right,#33b25c,#33b25b9f,#33b25b00);
+}
+.text-list6{
+    overflow: hidden;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    & i{
+        color: white;
+        font-size: 25px;
+        padding-left:6px;
+    }
+}
+.text-list6 button{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.215),rgba(0, 0, 0, 0.137),rgba(0, 0, 0, 0));
+    padding: 10px 400px 10px 10px;
+    border: transparent;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.text-list6:hover{
+    background:linear-gradient(to right,#33b25c,#33b25b9f,#33b25b00);
+}
+.sign-btn{
+    background-color: #33b25c;
+    background: linear-gradient(to right,#33b25b0f,#4c48ff,#33b25c,#33b25b0a);
+    border: transparent;
+    border-radius: 3px;
+    padding: 7px 100px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 47px;
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+    .text-list1 button{
+        padding: 5px 100px 5px 5px;
+        font-size: 10px;
+        margin-left: 4px;
+    }
+    .text-list1 i{
+        font-size: 14px;
+    }
+    .text-list2 button{
+        padding: 5px 100px 5px 5px;
+        font-size: 10px;
+        margin-left: 1px;
+    }
+    .text-list2 i{
+        font-size: 14px;
+    }
+    .text-list3 button{
+        padding: 5px 100px 5px 5px;
+        font-size: 10px;
+        margin-left: 3px;
+    }
+        .text-list3 i{
+        font-size: 14px;
+    }
+    .text-list4 button{
+        padding: 5px 100px 5px 5px;
+        font-size: 10px;
+        margin-left: 4px;
+    }
+        .text-list4 i{
+        font-size: 14px;
+    }
+    .text-list5 button{
+        padding: 5px 100px 5px 5px;
+        font-size: 10px;
+        margin-left: 3px;
+    }
+        .text-list5 i{
+        font-size: 14px;
+    }
+    .text-list6 button{
+        padding: 5px 100px 5px 5px;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+        .text-list6 i{
+        font-size: 14px;
+    }
+    .lists{
+        top: 12px;
+    }
+    .sign-btn{
+        margin-top: 50px;
+    }
+    .top-x{
+        z-index: 5;
+    }
+}

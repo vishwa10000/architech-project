@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f88101d7e9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="head">
+      <ul class="head-bar">
+        <li class="title">
+          <a href="index.html">Planner</a
+          ><i class="fa-solid fa-house-user" style="color: #20bd57"></i>
+        </li>
+        <li class="lists-top">
+          <a href="get-idea.html">Get ideas</a>
+        </li>
+        <li class="lists-top">
+          <a href="uploadplan.html">Upload a Plan</a>
+        </li>
+        <li class="lists-top">
+          <a href="designschl.html">Design School</a>
+        </li>
+        <li class="lists-top">
+          <a href="use-cases.html">Use Cases</a>
+        </li>
+        <li class="lists-top">
+          <a href="join.html">Join as a pro</a
+          ><button class="small-btn" type="button">NEW</button>
+        </li>
+        <button
+          title="click to sign up"
+          class="right-btn lists-top"
+          type="button"
+          onclick="sign()"
+        >
+          Sign Up
+        </button>
+        <button type="button" class="menu-bar" onclick="sidebar()">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </ul>
+    </div>
+    <!--FIRST NAV BAR COMPLETED-->
+    <div class="second-headbar">
+      <p>Design your dream home in easy-to-use 2D/3D editor with 5000+ items</p>
+    </div>
+    <!--SECOND NAV BAR COMPLETED-->
+    <div class="home-sec-vdo">
+      <video src="assert/main2-vdo.mp4" autoplay muted loop></video>
+    </div>
+
+    <section class="home-sec">
+      <div class="home-sec-textarea">
+        <p class="home-sec-title"><b>Create your dream home</b></p>
+        <p>
+          An advanced and easy-to-use 2D/3D home design tool. Join a community
+          of<b> 96 631 151 </b> designers or hire a professional designer.
+        </p>
+        <div class="home-sec-btn">
+          <button class="home-sec-btn1" onclick="homebtns()">
+            <a href="#">Start now</a>
+          </button>
+          <button class="home-sec-btn2" onclick="homebtns()">
+            <a href="#">Hire a Designer</a>
+          </button>
+        </div>
+        <img src="assert/media.png" alt="no image" />
+      </div>
+    </section>
+
+    <!-- message icon sec -->
+
+    <section class="msgbox" id="box">
+      <header class="msg-sec-header">
+        <img src="assert/planner.png" alt="..." width="80px" height="25px" />
+        <div>
+          <img src="assert/profile1.png" alt="..." width="30px" />
+          <img
+            src="assert/profile2.jpg"
+            alt="..."
+            width="30px"
+            style="margin-left: -5px"
+          />
+          <img
+            src="assert/profile3.png"
+            alt="..."
+            width="30px"
+            style="margin-left: -5px"
+          />
+        </div>
+      </header>
+      <section class="msgbox-textcontent">
+        <p class="msgbox-hii">Hi there 👋</p>
+        <p class="msgbox-hii1">How can we help?</p>
+      </section>
+
+      <section class="msgbox-card">
+        <div class="msgbox-flex-text1">
+          <p>Subscription Cancellation</p>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="msgbox-flex-text">
+          <p>Subscription Cancellation</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <div class="msgbox-flex-text">
+          <p>Subscription Cancellation</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <div class="msgbox-flex-text">
+          <p>Subscription Cancellation</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <div class="msgbox-flex-text">
+          <p>Subscription Cancellation</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <hr />
+      </section>
+    </section>
+
+    <button class="message-icon" onclick="fixedicon()">
+      <i class="fa-regular fa-message"></i>
+    </button>
+
+    <!--HOME-SEC-COMPLETED-->
+    <section class="appstore-sec">
+      <div>
+        <img src="assert/Screenshot 2023-11-28 115746.png" alt="noimages" />
+      </div>
+      <div class="appstore-image">
+        <img src="assert/apple-app-store-logo.jpg" alt="no images" />
+        <img src="assert/googleplay.webp" alt="noimages" />
+        <img src="assert/mac-images.png" alt="noimages" />
+        <img src="assert/microsoft.webp" alt="noimages" />
+      </div>
+    </section>
+    <!--APP store sec COMPLETED-->
+
+    <section>
+      <div class="sec2-title">
+        <p class="heading-title">Home Design Made Easy</p>
+        <p>Just 3 easy steps for stunning results</p>
+      </div>
+      <div class="sec2-content">
+        <div class="sec2-content-one">
+          <img src="assert/sec2-image4.jpg" alt="no image" />
+          <h3>Layout & Design</h3>
+          <p>
+            Use the 2D mode to create floor plans and design layouts with
+            furniture and other home items, or switch to 3D to explore and edit
+            your design from any angle.
+          </p>
+        </div>
+        <div class="sec2-content-two">
+          <img src="assert/home1.jpg" alt="no" />
+          <h3>Furnish & Edit</h3>
+          <p>
+            Edit colors, patterns and materials to create unique furniture,
+            walls, floors and more - even adjust item sizes to find the perfect
+            fit.
+          </p>
+        </div>
+        <div class="sec2-content-three">
+          <img src="assert/sec2-img3.jpg" alt="no" />
+          <h3>Visualize & Share</h3>
+          <p>
+            Use the Renders feature to capture your design as a realistic image
+            - this adds shadows, lighting and rich colors to make your work look
+            like a photograph!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2 COMPLETED -->
+    <!-- <div class="total">
+    <div class="rotate-vdo">
+      <video src="assert/853354935.mp4" muted autoplay loop></video>
+    </div>
+    </div> -->
+
+    <div class="sec3-header">
+      <p class="sec3-heading">Created for Amateurs</p>
+      <p class="sec3-subheading">
+        Use Planner 5D for your interior house design needs without
+      </p>
+      <p class="sec3-subheading">any professional skills</p>
+    </div>
+
+    <marquee behavior="scroll" direction="right">
+      <section class="getidea-sec2">
+        <div class="getsec2-images">
+          <img src="assert/galery1.webp" alt="noimage" />
+          <p>Isomatric interior design by planner 5D</p>
+        </div>
+        <div class="getsec2-images">
+          <img src="assert/galery2.webp" alt="noimage" />
+          <p>How to make the foundation | Planner 5D tutorial for beginners</p>
+        </div>
+        <div class="getsec2-images">
+          <img src="assert/galery3.webp" alt="noimage" />
+          <p>Planner 5D Skylights & Roof Windows in 3 ways</p>
+        </div>
+
+        <div class="getsec2-images">
+          <img src="assert/galery2.webp" alt="noimage" />
+          <p>How to make the foundation | Planner 5D tutorial for beginners</p>
+        </div>
+
+        <div class="getsec2-images">
+          <img src="assert/galery1.webp" alt="noimage" />
+          <p>Isomatric interior design by planner 5D</p>
+        </div>
+
+        <div class="getsec2-images">
+          <img src="assert/galery3.webp" alt="noimage" />
+          <p>Planner 5D Skylights & Roof Windows in 3 ways</p>
+        </div>
+
+        <div class="getsec2-images">
+          <img src="assert/galery1.webp" alt="noimage" />
+          <p>Isomatric interior design by planner 5D</p>
+        </div>
+        <div class="getsec2-images">
+          <img src="assert/galery2.webp" alt="noimage" />
+          <p>How to make the foundation | Planner 5D tutorial for beginners</p>
+        </div>
+        <div class="getsec2-images">
+          <img src="assert/galery3.webp" alt="noimage" />
+          <p>Planner 5D Skylights & Roof Windows in 3 ways</p>
+        </div>
+      </section>
+    </marquee>
+
+    <section>
+      <div class="carosel">
+        <a class="btn btn-left"><i class="fa-solid fa-chevron-left"></i></a>
+        <a class="btn btn-right"><i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </section>
+
+    <div class="sec3-header">
+      <p class="sec3-heading">Created for Amateurs</p>
+      <p class="sec3-subheading">
+        Use Planner 5D for your interior house design needs without
+      </p>
+      <p class="sec3-subheading">any professional skills</p>
+    </div>
+
+    <section class="sec3-content">
+      <div class="sec3-text">
+        <div class="sec3-text-left1">
+          <i
+            class="fa-regular fa-images"
+            style="color: #20bd57; font-size: 40px"
+          ></i>
+          <p>HD Vizualizations</p>
+          <p class="text-gray">
+            Use the Renders feature to capture your design as a realistic image
+            - this adds shadows, lighting and rich colors to make your work look
+            like a photograph!
+          </p>
+        </div>
+        <div class="sec3-text-left2">
+          <i
+            class="fa-brands fa-stack-overflow"
+            style="color: #20bd57; font-size: 40px"
+          ></i>
+          <p>5000+ Item Catalog</p>
+          <p class="text-gray">
+            Explore our project gallery and browse our content. We have
+            something great in store for everyone in our user-generated library.
+          </p>
+        </div>
+        <div class="sec3-text-left3">
+          <i
+            class="fa-solid fa-brush"
+            style="color: #20bd57; font-size: 40px"
+          ></i>
+          <p>Item Editing</p>
+          <p class="text-gray">
+            Apply custom colors, patterns and materials to furniture, walls and
+            floors to fit your interior design style.
+          </p>
+        </div>
+      </div>
+      <!-- left row finished -->
+      <div class="sec3-text">
+        <div class="sec3-text-left1">
+          <i
+            class="fa-solid fa-cube"
+            style="color: #20bd57; font-size: 40px"
+          ></i>
+          <p>2D/3D Modes</p>
+          <p class="text-gray">
+            Experiment with both 2D and 3D views as you design from various
+            angles. Arrange, edit and apply custom surfaces and materials.
+          </p>
+        </div>
+        <div class="sec3-text-left2">
+          <i
+            class="fa-regular fa-address-book"
+            style="color: #20bd57; font-size: 40px"
+          ></i>
+          <p>Easy User Interface</p>
+          <p class="text-gray">
+            The intuitive and user-focused interface provides an easy design
+            process without any tutorials or instructions.
+          </p>
+        </div>
+        <div class="sec3-text-left3">
+          <i
+            class="fa-brands fa-battle-net"
+            style="color: #20bd57; font-size: 40px"
+          ></i>
+          <p>Community</p>
+          <p class="text-gray">
+            Be a part of a growing community. Upload and customize projects. Get
+            inspired by designs created by other users.
+          </p>
+        </div>
+      </div>
+      <!-- middle row finished -->
+      <div>
+        <img
+          src="assert/features-img@2x.png"
+          alt="noimage"
+          width="300"
+          height="450"
+        />
+      </div>
+    </section>
+    <!-- !section 4 start here -->
+    <div class="sec4-heading">
+      <p class="get-inspired">Get inspired</p>
+      <p style="color: #8a8a8a">
+        Showcase of most creative interior design projects & home decor ideas
+      </p>
+    </div>
+    <section class="sec4">
+      <img src="assert/home1.jpg" alt="..." />
+      <img src="assert/home2.jpg" alt="..." />
+      <img src="assert/home3.jpg" alt="..." />
+      <img src="assert/home4.jpg" alt="..." />
+      <img src="assert/home5.jpg" alt="..." />
+      <img src="assert/home6.jpg" alt="..." />
+      <img src="assert/home7.jpg" alt="..." />
+      <img src="assert/home8.jpg" alt="..." />
+      <img src="assert/home1.jpg" alt="..." />
+      <img src="assert/home2.jpg" alt="..." />
+      <img src="assert/home3.jpg" alt="..." />
+      <img src="assert/home4.jpg" alt="..." />
+      <img src="assert/home5.jpg" alt="..." />
+      <img src="assert/home6.jpg" alt="..." />
+      <img src="assert/home7.jpg" alt="..." />
+      <img src="assert/home8.jpg" alt="..." />
+      <img src="assert/home1.jpg" alt="..." />
+      <img src="assert/home2.jpg" alt="..." />
+      <img src="assert/home3.jpg" alt="..." />
+      <img src="assert/home4.jpg" alt="..." />
+      <img src="assert/home5.jpg" alt="..." />
+      <img src="assert/home6.jpg" alt="..." />
+      <img src="assert/home7.jpg" alt="..." />
+      <img src="assert/home8.jpg" alt="..." />
+    </section>
+    <!-- !footer start here -->
+    <footer class="foot">
+      <div class="icon-tab">
+        <div title="google" class="google-icon">
+          <i class="fa-brands fa-google"></i>
+        </div>
+        <div title="facebook" class="fb-icon">
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div title="instagram" class="instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div title="tiktok" class="tiktok">
+          <i class="fa-brands fa-tiktok"></i>
+        </div>
+        <div title="youtube" class="youtube">
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div title="whatsapp" class="whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div title="pintrest" class="pintrest">
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <div title="twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+      </div>
+      <!-- FOOTER ICONS END HERE -->
+      <hr style="width: 95%; margin: auto" />
+      <div class="footer-text-content">
+        <div>
+          <h4>Company</h4>
+          <ul class="footer-text">
+            <li><a href="#"> About Us</a></li>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">Design Council</a></li>
+            <li><a href="#">Legal Information</a></li>
+            <li><a href="#">Partner Program</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <!-- FOOTER TEXT CONTENT 1 END HERE -->
+        <div>
+          <h4>Use cases</h4>
+          <ul class="footer-text">
+            <li><a href="#">3D Garden Planner </a></li>
+            <li><a href="#">Gym Floor Plan</a></li>
+            <li><a href="#">Landscape Design Software</a></li>
+            <li><a href="#">Home Design Software</a></li>
+            <li><a href="#">Bathroom Planner</a></li>
+            <li><a href="#">Room Planner</a></li>
+            <li><a href="#">Kitchen Planner</a></li>
+            <li><a href="#">Office Design</a></li>
+            <li><a href="#">Floor Plan Software</a></li>
+            <li><a href="#">Floor Plan Creator</a></li>
+          </ul>
+        </div>
+        <!-- FOOTER TEXT CONTENT 2 END HERE -->
+        <div>
+          <h4>Platform</h4>
+          <ul class="footer-text">
+            <li><a href="#">Web</a></li>
+            <li><a href="#"> iOS</a></li>
+            <li><a href="#">Android</a></li>
+            <li><a href="#">macOS</a></li>
+            <li><a href="#">Windows</a></li>
+          </ul>
+        </div>
+        <!-- FOOTER TEXT CONTENT 3 END HERE -->
+        <div>
+          <h4>Features</h4>
+          <ul class="footer-text">
+            <li><a href="#">Automatic Room Generator</a></li>
+            <li><a href="#">AI Plan Recognition</a></li>
+            <li><a href="#">AR-Driven 3D Interior Projecting Feature</a></li>
+            <li><a href="#">Automated Furniture Arrangement</a></li>
+            <li><a href="#">Enterprise Solutions</a></li>
+            <li><a href="#">Product Configurator</a></li>
+            <li><a href="#">Solutions for Schools</a></li>
+          </ul>
+        </div>
+        <!-- FOOTER TEXT CONTENT 4 END HERE -->
+        <div>
+          <h4>Design Ideas</h4>
+          <ul class="footer-text">
+            <li><a href="#">Interior Design Blog</a></li>
+            <li><a href="#">Interior Design School</a></li>
+            <li><a href="#">Interior Design Contests</a></li>
+            <li><a href="#">Floor Plans Gallery</a></li>
+            <li><a href="#">3D Renders Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="term-text">
+        <p>
+          This site is protected by reCAPTCHA and the Google
+          <span class="terms-condition-color">Privacy Policy</span> and<span>
+            Terms of Service
+          </span>
+        </p>
+      </div>
+      <hr style="width: 95%; margin: auto" />
+      <!--FOOTER FINAL ROW -->
+      <div class="footer-last">
+        <div class="footer-last-lefttxt">
+          <p class="planner">
+            Planner<i class="fa-solid fa-house-user" style="color: #20bd57"></i>
+          </p>
+          <div>
+            <p>Planner 5D® © 2011—2023</p>
+          </div>
+        </div>
+        <div class="footer-last-righttxt">
+          <p>Planner5D UAB, Antakalnio St.17, Vilnius 10312, Lithuania</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
